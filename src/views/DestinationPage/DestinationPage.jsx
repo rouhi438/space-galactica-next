@@ -106,6 +106,7 @@ export const DestinationPage = () => {
           <div className={styles.wishlistList}>
             {planetsWishlist.map((item) => (
               <PlanetsWishlistItem
+                className={styles.wishlistItem}
                 key={item.name}
                 {...item}
                 onRemove={() => removePlanetFromWishlist(item.name)}

@@ -101,3 +101,9 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 420px) {
+  .wishlistItem {
+    width: 122px
+  }
+}

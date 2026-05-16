@@ -11,10 +11,7 @@ export function NavItem({ title, link, index }) {
 
   return (
     <li className={itemClassName}>
-      <Link href={link}>
-        <b>{String(index).padStart(2, "0")}</b>
-        {title}
-      </Link>
+      <Link href={link}>{title}</Link>
     </li>
   );
 }
